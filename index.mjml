@@ -1,0 +1,173 @@
+<mjml>
+    <mj-head>
+        <mj-title>JPO du 23 mars 2024 Tourisme</mj-title>
+        <mj-attributes>
+            <mj-font name="Roboto" href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;700;900&display=swap"/>
+            <mj-class name="d-section" background-color="#ffffff" width="600px" padding="0px" />
+            <mj-class name="d-titre" padding="3px 50px 14px 60px" font-family="Roboto,Arial,sans-serif" font-size="36px" line-height="38px" color="#C21718"/>
+            <mj-class name="d-sous-titre" padding="20px 50px 3px 60px" font-family="Roboto,Arial,sans-serif" font-size="20px" line-height="22px" color="#74151E"/>
+            <mj-class name="d-date" padding="6px 60px" font-family="Roboto,Arial,sans-serif" font-size="20px" line-height="22px" color="#C21718"/>
+            <mj-class name="d-text" padding="6px 60px" font-family="Roboto,Arial,sans-serif" font-size="16px" line-height="20px" color="#14141f"/>
+            <mj-class name="d-signature" font-family="Roboto,Arial,sans-serif" font-size="16px" line-height="20px" color="#14141f"/>
+            <mj-class name="d-lieu" padding="2px 50px 2px 60px" font-family="Roboto,Arial,sans-serif" font-size="16px" font-weight="400" color="#626262" />
+            <mj-class name="d-admin" padding="5px" font-family="Roboto,Arial,sans-serif" align="center" font-size="12px" line-height="14px" font-weight="400" color="#626262" /> 
+        </mj-attributes>
+        <mj-style>
+            @media(max-width:480px){
+                .m-padding{
+                    padding:4px 20px !important;
+                }
+                .m-padding-signature{
+                    padding:10px 40px !important;
+                }
+                .m-padding-signature2{
+                    padding:0 !important;
+                }
+                .m-padding2{
+                    padding:2px 20px !important;
+                }
+                .m-footer{
+                    text-align: center !important;
+                }
+                .m-footer1{
+                    width: 100% !important;
+                    padding: 35px 2px 2px 2px !important;
+                }
+                .m-footer2{
+                    width: 100% !important;
+                    padding: 2px 2px 2px 2px !important;
+                }
+                .m-footer3{
+                    text-align: center !important;
+                    width: 100% !important;
+                    padding: 10px 2px 35px 2px !important;
+                }
+            }
+        </mj-style>
+    </mj-head>
+    <mj-body background-color="#efefef">
+    <!--section reglement-->
+        <mj-section padding="0">
+            <mj-column>
+                <mj-text mj-class="d-admin">
+                    Si vous ne parvenez pas à lire cet e-mail, cliquez <a href="{{ mirror }}">ici</a>
+                </mj-text>
+            </mj-column>
+        </mj-section>
+        <mj-section mj-class="d-section">
+            <mj-column>
+                <mj-image href="https://ecosup-hotellerie.fr" padding="0" src="img/bdTourisme27012024-80.jpg" target="_blank" alt="Logo d'Ecosup Tourisme" />
+            </mj-column>
+        </mj-section>
+        <!--section titre-->
+        <mj-section mj-class="d-section">
+            <mj-column>
+                <mj-image href="https://ecosup-hotellerie.fr" padding="0px" src="https://img.mailinblue.com/3403292/images/content_library/original/65f99340e4e99239d0d69263.jpg" target="_blank" alt="Affiche de la Journée Portes Ouvertes du samedi 23 mars 2024"/>
+                <mj-text align="left" mj-class="d-sous-titre" text-transform="uppercase" font-weight="700" css-class="m-padding">
+                   <strong>Invitation à la JPO du 23 mars 2024</strong>
+                </mj-text>
+                <mj-text align="left" mj-class="d-titre" font-weight="700" css-class="m-padding">
+                Rejoignez Ecosup Hôtellerie
+                </mj-text>
+            </mj-column>
+        </mj-section>
+                <!--texte-->
+        <mj-section mj-class="d-section">
+            <mj-column>
+                <mj-text mj-class="d-text" css-class="m-padding">
+                <strong>{{ contact.PRENOM }}</strong>, vous avez choisi de vous investir dans les métiers de l'Hôtellerie et de la Restauration, mais vous ne connaissez pas les atouts de notre école (formations en alternance, intervenants reconnus, structure familiale... ). Alors rencontrons-nous lors de notre <strong>Journée Portes Ouvertes</strong>, 
+                </mj-text>
+                 <mj-text mj-class="d-date" css-class="m-padding" font-weight="700">
+                le Samedi 23 mars de 9h30 à 13h.
+                </mj-text>
+                <mj-text mj-class="d-text" css-class="m-padding">
+                Profitez de cette invitation pour découvrir le dynamisme de notre <b>campus</b>, les actions de nos <b>étudiants</b> et l'implication de nos <b>formateurs</b>... nous vous attendons <strong>{{ contact.PRENOM }}</strong> et serons heureux de vous accueillir chez-nous.
+                </mj-text>
+            </mj-column>
+        </mj-section>  
+        <mj-section mj-class="d-section">
+            <mj-column css-class="m-padding-signature">
+                <mj-text padding="0 60px 0 300px" mj-class="d-signature" css-class="m-padding-signature2" font-weight="400">
+                A bientôt !
+                </mj-text>
+                <mj-text padding="0 60px 0 300px" mj-class="d-signature" css-class="m-padding-signature2" font-weight="600">
+                Hélène <span style="text-transform:uppercase">Salmon</span>
+                </mj-text>
+                <mj-text padding="0 60px 0 300px" mj-class="d-signature" css-class="m-padding-signature2" font-weight="400">
+                Responsable pédagogique
+                </mj-text>
+                <mj-text padding="0 60px 0 300px" mj-class="d-signature" css-class="m-padding-signature2" font-weight="400">
+                Ecosup Hôtellerie
+                </mj-text>    
+                </mj-column>
+                </mj-section>
+                <mj-section mj-class="d-section">    
+                <mj-column>
+                    <mj-divider padding="30px 0px 20px 0px" width="50%" border-width="2px" border-style="solid" border-color="#a83163" />
+                </mj-column>
+                </mj-section>
+                <!--Comment s'y rendre-->
+                <mj-section mj-class="d-section">
+                <mj-column>
+                <mj-text font-size="18px" font-weight="700" color="#74151E" mj-class="d-lieu" css-class="m-padding2"> 
+                        Comment s'y rendre ?
+                </mj-text>
+                <mj-text mj-class="d-lieu" css-class="m-padding2">
+                        <b style="color:#C21718">Accès Métro : </b>Ligne 2 - station Tourcoing Centre.
+                    </mj-text>
+                    <mj-text mj-class="d-lieu" css-class="m-padding2">
+                        <b style="color:#C21718">Accès Tramway :</b> Terminus Tourcoing Centre.
+                    </mj-text>
+                    <mj-text mj-class="d-lieu" css-class="m-padding2">
+                        <b style="color:#C21718">Accès Bus :</b> Gare routière de Tourcoing.
+                    </mj-text>
+                    <mj-text mj-class="d-lieu" css-class="m-padding2">
+                        <b style="color:#C21718">Accès Train :</b> Gare de Tourcoing puis station de Métro Tourcoing Centre
+                    </mj-text>
+                    <mj-text mj-class="d-lieu" css-class="m-padding2">
+                        <b style="color:#C21718">Accès Voiture :</b> Tourcoing centre.
+                    </mj-text>
+                    <mj-spacer height="30px"/>
+            </mj-column>
+        </mj-section>
+        <mj-section padding="0" background-color="#C21718">
+            <mj-column width="50%">
+                <mj-text padding="35px 35px 2px 35px" align="left" font-size="16px" font-weight="900" color="#FFFFFF" css-class="m-footer">
+                   <div class="m-footer">ECOSUP CAMPUS</div>
+                </mj-text>
+                <mj-text padding="2px 35px 2px 35px" align="left" font-size="13px" color="#FFFFFF" css-class="m-footer2">
+                  <div class="m-footer"> 17 Place Charles et Albert Roussel,</div>
+                </mj-text>
+                <mj-text padding="2px 35px 2px 35px" align="left" font-size="13px" color="#FFFFFF" css-class="m-footer2">
+                    <div class="m-footer">59200 TOURCOING</div>
+                </mj-text>
+                <mj-text padding="2px 35px 2px 35px" align="left"  font-size="13px" color="#FFFFFF" css-class="m-footer2">
+                    <div class="m-footer">03.20.70.06.06</div>
+                </mj-text>
+                <mj-text padding="2px 35px 45px 35px" align="left" font-size="13px" color="#FFFFFF" css-class="m-footer2">
+                    <div class="m-footer">contact@ecosup-campus.fr</div>
+                </mj-text>
+            </mj-column>
+            <mj-column width="50%">
+                <mj-social padding="35px 35px 35px 45px" align="right" icon-size="35px" mode="horizontal" css-class="m-footer3">
+                    <mj-social-element background-color="#74151E" name="facebook" href="https://www.facebook.com/EcosupCamp"></mj-social-element>
+                    <mj-social-element background-color="#74151E" name="instagram" href="https://www.instagram.com/ecosup.campus/"></mj-social-element>
+                </mj-social>
+            </mj-column>
+        </mj-section>
+        <mj-section padding="0">
+            <mj-column>
+            <mj-text mj-class="d-admin" line-height="14px">
+                Cet email a été envoyé à {{contact.EMAIL}},<br>
+                 vous l'avez reçu car vous êtes inscrit à Ecosup Campus.
+            </mj-text>
+            <mj-text mj-class="d-admin" >
+                <a href="{{ unsubscribe }}">Se désinscrire</a>
+            </mj-text>
+            <mj-text mj-class="d-admin">
+            ©2024 ECOSUP CAMPUS
+            </mj-text>
+            </mj-column>
+        </mj-section>
+    </mj-body>
+</mjml>
