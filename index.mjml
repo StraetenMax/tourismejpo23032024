@@ -4,9 +4,9 @@
         <mj-attributes>
             <mj-font name="Roboto" href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;700;900&display=swap"/>
             <mj-class name="d-section" background-color="#ffffff" width="600px" padding="0px" />
-            <mj-class name="d-titre" padding="3px 50px 14px 60px" font-family="Roboto,Arial,sans-serif" font-size="36px" line-height="38px" color="#C21718"/>
-            <mj-class name="d-sous-titre" padding="20px 50px 3px 60px" font-family="Roboto,Arial,sans-serif" font-size="20px" line-height="22px" color="#74151E"/>
-            <mj-class name="d-date" padding="6px 60px" font-family="Roboto,Arial,sans-serif" font-size="20px" line-height="22px" color="#C21718"/>
+            <mj-class name="d-titre" padding="3px 50px 14px 60px" font-family="Roboto,Arial,sans-serif" font-size="36px" line-height="38px" color="#1F3C90"/>
+            <mj-class name="d-sous-titre" padding="20px 50px 3px 60px" font-family="Roboto,Arial,sans-serif" font-size="20px" line-height="22px" color="#787FBD"/>
+            <mj-class name="d-date" padding="6px 60px" font-family="Roboto,Arial,sans-serif" font-size="20px" line-height="22px" color="#1F3C90"/>
             <mj-class name="d-text" padding="6px 60px" font-family="Roboto,Arial,sans-serif" font-size="16px" line-height="20px" color="#14141f"/>
             <mj-class name="d-signature" font-family="Roboto,Arial,sans-serif" font-size="16px" line-height="20px" color="#14141f"/>
             <mj-class name="d-lieu" padding="2px 50px 2px 60px" font-family="Roboto,Arial,sans-serif" font-size="16px" font-weight="400" color="#626262" />
@@ -103,34 +103,34 @@
                 </mj-section>
                 <mj-section mj-class="d-section">    
                 <mj-column>
-                    <mj-divider padding="30px 0px 20px 0px" width="50%" border-width="2px" border-style="solid" border-color="#a83163" />
+                    <mj-divider padding="30px 0px 20px 0px" width="50%" border-width="2px" border-style="solid" border-color="#787FBD" />
                 </mj-column>
                 </mj-section>
                 <!--Comment s'y rendre-->
                 <mj-section mj-class="d-section">
                 <mj-column>
-                <mj-text font-size="18px" font-weight="700" color="#74151E" mj-class="d-lieu" css-class="m-padding2"> 
+                <mj-text font-size="18px" font-weight="700" color="#787FBD" mj-class="d-lieu" css-class="m-padding2"> 
                         Comment s'y rendre ?
                 </mj-text>
                 <mj-text mj-class="d-lieu" css-class="m-padding2">
-                        <b style="color:#C21718">Accès Métro : </b>Ligne 2 - station Tourcoing Centre.
+                        <b style="color:#1F3C90">Accès Métro : </b>Ligne 2 - station Tourcoing Centre.
                     </mj-text>
                     <mj-text mj-class="d-lieu" css-class="m-padding2">
-                        <b style="color:#C21718">Accès Tramway :</b> Terminus Tourcoing Centre.
+                        <b style="color:#1F3C90">Accès Tramway :</b> Terminus Tourcoing Centre.
                     </mj-text>
                     <mj-text mj-class="d-lieu" css-class="m-padding2">
-                        <b style="color:#C21718">Accès Bus :</b> Gare routière de Tourcoing.
+                        <b style="color:#1F3C90">Accès Bus :</b> Gare routière de Tourcoing.
                     </mj-text>
                     <mj-text mj-class="d-lieu" css-class="m-padding2">
-                        <b style="color:#C21718">Accès Train :</b> Gare de Tourcoing puis station de Métro Tourcoing Centre
+                        <b style="color:#1F3C90">Accès Train :</b> Gare de Tourcoing puis station de Métro Tourcoing Centre
                     </mj-text>
                     <mj-text mj-class="d-lieu" css-class="m-padding2">
-                        <b style="color:#C21718">Accès Voiture :</b> Tourcoing centre.
+                        <b style="color:#1F3C90">Accès Voiture :</b> Tourcoing centre.
                     </mj-text>
                     <mj-spacer height="30px"/>
             </mj-column>
         </mj-section>
-        <mj-section padding="0" background-color="#C21718">
+        <mj-section padding="0" background-color="#1F3C90">
             <mj-column width="50%">
                 <mj-text padding="35px 35px 2px 35px" align="left" font-size="16px" font-weight="900" color="#FFFFFF" css-class="m-footer">
                    <div class="m-footer">ECOSUP CAMPUS</div>
@@ -150,8 +150,8 @@
             </mj-column>
             <mj-column width="50%">
                 <mj-social padding="35px 35px 35px 45px" align="right" icon-size="35px" mode="horizontal" css-class="m-footer3">
-                    <mj-social-element background-color="#74151E" name="facebook" href="https://www.facebook.com/EcosupCamp"></mj-social-element>
-                    <mj-social-element background-color="#74151E" name="instagram" href="https://www.instagram.com/ecosup.campus/"></mj-social-element>
+                    <mj-social-element background-color="#20274F" name="facebook" href="https://www.facebook.com/EcosupCamp"></mj-social-element>
+                    <mj-social-element background-color="#20274F" name="instagram" href="https://www.instagram.com/ecosup.campus/"></mj-social-element>
                 </mj-social>
             </mj-column>
         </mj-section>
