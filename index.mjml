@@ -75,7 +75,7 @@
         <mj-section mj-class="d-section">
             <mj-column>
                 <mj-text mj-class="d-text" css-class="m-padding">
-                <strong>{{ contact.PRENOM }}</strong>, vous avez choisi de vous investir dans les métiers du Tourisme, mais vous ne connaissez pas les atouts de notre école (formations en alternance, intervenants reconnus, structure familiale... ). Alors rencontrons-nous lors de notre <strong>Journée Portes Ouvertes</strong>, 
+                <strong>{{ contact.PRENOM }}</strong>, vous avez choisi de vous investir dans les métiers du Tourisme, mais vous ne connaissez pas les atouts de notre école (formations en alternance et intervenants reconnus... ). Alors rencontrons-nous lors de notre <strong>Journée Portes Ouvertes</strong>, 
                 </mj-text>
                  <mj-text mj-class="d-date" css-class="m-padding" font-weight="700">
                 le Samedi 23 mars de 9h30 à 13h.
